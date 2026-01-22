@@ -2,17 +2,20 @@ body {
   background: #eee;
   font-family: sans-serif;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  padding: 8px 8px;
+  border: 8px;
+  border-color: #fff;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
 }
 
 .content {
