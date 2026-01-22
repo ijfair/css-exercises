@@ -9,16 +9,16 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 4px;
 }
 .box-clarity{
-  border-color: red;
-  /* Background color is for the margin*/
-  background-color: green;
+  padding: 16px 8px;
+  margin: 8px;
 }
 .title {
   background: #e3f4ff;
   font-size: 16px;
-  margin: 0px;
+  margin-top: 16px;
 }
 
 .content {
@@ -29,12 +29,7 @@ body {
   background: #e3f4ff;
   text-align: center;
 }
-.box-clarity{
-  border: 8px solid red;
-  /* Background color is for the margin*/
-  background-color: green;
-  padding: 16px;
-}
+
 button {
   background: white;
   border: 1px solid #eee;
